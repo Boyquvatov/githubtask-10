@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 65%;
+    height: 95%;
+    background-color: rgb(126, 69, 3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.text h1{
+    color: white;
+    font-family: sans-serif;
+}
+.text p{
+    color: white;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.icon1{
+    width: 90px;
+}
+.icon1 i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid  rgb(126, 69, 3);
+    background-color: white;
+    color:  rgb(126, 69, 3);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon1 h6{
+    text-align: start;
+    color: white;
+}
+.icon1 h4{
+    color: white;
+}
+.form{
+    width: 70%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 7px;
+    padding: 30px;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0px 20px;
+
+}
+.item1{
+    display: flex;
+}
+.item1-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.item1-style input{
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.item2-style textarea{
+    width: 303px;
+    height: 280px;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+.butt{
+    width: 80%;
+}
+.butt-style button{
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(126, 69, 3);
+    border: none;
+    border-radius: 10px;
+}
